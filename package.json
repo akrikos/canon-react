@@ -10,7 +10,8 @@
     "prepublish": "./prepublish.sh",
     "build": "scripts/cibuild",
     "clean": "./node_modules/.bin/grunt clean",
-    "test": "scripts/cibuild"
+    "test": "scripts/cibuild",
+    "documentation-build": "./node_modules/.bin/grunt documentation-build"
   },
   "keywords": [
     "react",
